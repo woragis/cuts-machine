@@ -342,6 +342,14 @@ flowchart TD
 
 ---
 
+## F16 — Observabilidade do worker
+
+**Entrega:** worker persiste `runs.error_message` e atualiza `jobs_log` em sucesso/falha.
+
+Ver [FUTURE-PHASES.md](./FUTURE-PHASES.md) para F17+ (pipelines 6–8, re_render_cut, batch, etc.).
+
+---
+
 ## Próximo passo
 
-Após commit da F0, iniciar **F1 — Scaffold backend** no submodule `backend/`.
+Roadmap completo em [FUTURE-PHASES.md](./FUTURE-PHASES.md). Prioridade imediata: **F16** (observabilidade), depois E2E dos pipelines 1–5, depois pipeline 6 (vídeo local Woragis).
